@@ -1,0 +1,16 @@
+/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Roboto Condensed', sans-serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Abel', sans-serif;*/
+/*font-family: 'Dancing Script', cursive;*/
+
+.coresTrybe {
+  background-color: rgb(11, 143, 112);
+  background-color: rgb(15, 163, 107);
+  background-color: rgb(31, 224, 151);
+}
+
+body {
+  max-width: 600px;
+  margin: auto;
+}
