@@ -10,6 +10,7 @@
 
 body {
   max-width: 600px;
+  background-color: white;
   margin: auto;
   font-family: 'Roboto Condensed', sans-serif;
 }
