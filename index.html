@@ -1,42 +1,26 @@
-<html>
-    <head>
-        <title>Words Game Debug</title>
-        <link href="style.css" rel="stylesheet"/>
-    </head>
-    <body>
-        <form method="POST">
-            Type in all the letters:
-            <input id="text" type="text" name="text" autofocus maxlength="16"/>
-            <input id="send" type="submit" value="send"/>
-        </form>
-        <div id="result"></div>
-        <div id="panel">
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-        </div>
-        <div id="previous" class="controls">Previous</div>
-        <div id="stop" class="controls">Auto</div>
-        <div id="next" class="controls">Next</div>
-        <div id="reset" class="controls">Reset</div>
-        
-             
-        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
-        <script type="text/javascript" src="jQuery-Color.js"></script>
-        <script type="text/javascript" src="cracker.js"></script>
-    </body>
-</html>
+<!DOCTYPE html>
+<html lang="en">
 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://kit.fontawesome.com/1696b49208.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <input id="letras" type="text" maxlength="16" placeholder="Type game letters">
+    <button class="processInput">CHECK</button>
+    <ul class="board"></ul>
+    <ul class="listOfWords"></ul>
+    <script src="allwords.js" type="module"></script>
+    <script src="script.js" type="module"></script>
+  </body>
+
+</html>

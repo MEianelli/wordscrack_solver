@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 4, 2017, 11:41:22 AM
+    Author     : MEia
+*/
+
+body{
+    font-family: 'Courier New';
+    font-weight: bold;
+}
+
+form{
+    width: 500px;
+    height: 30px;
+}
+
+.matrix{
+    font-size: 40px;
+}
+
+#panel{
+    width: 200px;
+    height: 200px;
+    border-radius: 2px;
+    border: 8px solid #14c4fa;
+    float: left;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px #000;
+}
+.letter{
+    width: 46px;
+    height: 46px;
+    margin: 1px;
+    border: 1px solid #000;
+    background-color: #ffffcc;
+    float: left;
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+.newdiv{
+    width: 180px;
+    height: 40px;
+    background-color: #fff;
+    float: left;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: left;
+}
+
+#result{
+    width: 200px;
+    background-color: #fff;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    height: 216px;
+    overflow-y: scroll;
+    float: left;
+}
+
+.controls{
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px;
+    background-color: #14c4fa;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 2px #000;
+}
+#previous{
+    clear: both;
+    float: left;
+}
+
+#stop,#next,#reset{
+    float: left;
+}
